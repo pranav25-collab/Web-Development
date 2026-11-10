@@ -1,0 +1,195 @@
+```css
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7ed;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #ea580c;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 18px;
+    color: #ffedd5;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #9a3412;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #f97316;
+    border-radius: 5px;
+}
+
+/* Welcome Section */
+.welcome {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 35px 25px;
+    text-align: center;
+    background-color: #ffedd5;
+    border-left: 6px solid #ea580c;
+    border-radius: 8px;
+}
+
+.welcome h2 {
+    color: #c2410c;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.welcome p {
+    margin-bottom: 8px;
+}
+
+/* Content Cards */
+.card {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border-top: 4px solid #f97316;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(154, 52, 18, 0.12);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 7px 18px rgba(154, 52, 18, 0.18);
+}
+
+.card h2 {
+    color: #c2410c;
+    margin-bottom: 15px;
+}
+
+/* Skills List */
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills-list li {
+    background-color: #ffedd5;
+    color: #9a3412;
+    padding: 10px 18px;
+    border-radius: 20px;
+    border: 1px solid #fdba74;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.skills-list li:hover {
+    background-color: #ea580c;
+    color: white;
+}
+
+/* Projects */
+.project {
+    background-color: #fff7ed;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-left: 4px solid #f97316;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #c2410c;
+    margin-bottom: 8px;
+}
+
+/* Contact Section */
+#contact a {
+    color: #ea580c;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #9a3412;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    margin-top: 35px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    nav a {
+        padding: 8px 12px;
+    }
+
+    .welcome {
+        margin: 20px 12px;
+        padding: 25px 15px;
+    }
+
+    .welcome h2 {
+        font-size: 23px;
+    }
+
+    .card {
+        margin: 20px 12px;
+        padding: 20px;
+    }
+
+    .skills-list {
+        gap: 8px;
+    }
+
+    .skills-list li {
+        padding: 8px 12px;
+    }
+}
+```

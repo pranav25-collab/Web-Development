@@ -1,0 +1,126 @@
+
+/* Biscoff Colour Theme */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5eadb;
+    color: #4b2e20;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #4b2e20;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff3e3 !important;
+}
+
+.nav-link:hover {
+    color: #d9aa78 !important;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #8b5638, #c58b5b);
+    color: #fff8ed;
+    text-align: center;
+    padding: 45px 15px;
+}
+
+/* Blog Cards */
+.blog-card {
+    background-color: #fffaf2;
+    border: 1px solid #e6d2bb;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(75, 46, 32, 0.15);
+}
+
+.blog-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-card .card-title {
+    color: #75452d;
+}
+
+.blog-card .card-text {
+    color: #705647;
+}
+
+/* Read More Button */
+.btn-primary {
+    background-color: #9b633e;
+    border-color: #9b633e;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #68402b;
+    border-color: #68402b;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #fffaf2;
+    padding: 20px;
+    border: 1px solid #e6d2bb;
+    border-radius: 12px;
+}
+
+.sidebar h4,
+.sidebar h5 {
+    color: #75452d;
+}
+
+.sidebar p,
+.sidebar li {
+    color: #705647;
+}
+
+/* Footer */
+footer {
+    background: #4b2e20;
+    color: #fff3e3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Tablet Screens */
+@media (max-width: 991px) {
+    .hero {
+        padding: 35px 15px;
+    }
+
+    .blog-card img {
+        height: 180px;
+    }
+}
+
+/* Mobile Screens */
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .blog-card img {
+        height: 190px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}

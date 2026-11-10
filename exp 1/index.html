@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Experiment 1</title>
+
+    <style>
+        /* General Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf7ea;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #176b3a;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #d5f5df;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #239653;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 22px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #176b3a;
+            border-radius: 5px;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Welcome Section */
+        .welcome {
+            background-color: #c9efd2;
+            border-left: 6px solid #239653;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+        }
+
+        .welcome h2 {
+            color: #176b3a;
+            margin-bottom: 10px;
+        }
+
+        /* Content Cards */
+        .content-card {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            border-top: 4px solid #239653;
+            box-shadow: 0 4px 10px rgba(0, 80, 30, 0.12);
+            transition: transform 0.3s;
+        }
+
+        .content-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .content-card h2 {
+            color: #176b3a;
+            margin-bottom: 15px;
+        }
+
+        .content-card p {
+            margin-bottom: 8px;
+        }
+
+        .content-card strong {
+            color: #176b3a;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #124d2b;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 30px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            nav a {
+                padding: 8px 14px;
+            }
+
+            main {
+                padding: 0 12px;
+                margin: 20px auto;
+            }
+
+            .welcome,
+            .content-card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Web Design Experiment 1</h1>
+        <p>GitHub Repository and GitHub Pages</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section class="welcome" id="home">
+            <h2>Welcome to My Webpage</h2>
+            <p>
+                This is a simple static webpage created for the Web Development Lab.
+                This webpage demonstrates the use of GitHub repository, branches,
+                merging and GitHub Pages.
+            </p>
+        </section>
+
+        <section class="content-card">
+            <h2>Student Details</h2>
+            <p><strong>Name:</strong> Pranav Porwal</p>
+            <p><strong>Roll Number:</strong> J250212114</p>
+            <p><strong>University:</strong> JSS Mahavidyapeetha, JSS University-Noida</p>
+            <p><strong>Department:</strong> Department of Data Science</p>
+        </section>
+
+        <section class="content-card" id="about">
+            <h2>About</h2>
+            <p>
+                GitHub is used to store and manage the project. Branches are used
+                to make changes, and GitHub Pages is used to publish the website online.
+            </p>
+        </section>
+
+        <section class="content-card" id="contact">
+            <h2>Contact</h2>
+            <p>Email: pranavporwal815@gmail.com</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Pranav Porwal (J250212114) | Web Design Experiment 1</p>
+    </footer>
+
+</body>
+</html>
+```
